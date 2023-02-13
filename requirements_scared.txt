@@ -1,0 +1,9 @@
+estraces==1.9.2
+h5py==3.8.0
+llvmlite==0.39.1
+numba==0.56.4
+numpy==1.23.5
+psutil==5.9.4
+scared==1.0.1
+scipy==1.10.0
+trsfile==2.1.0
