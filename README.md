@@ -22,8 +22,8 @@ Contributions welcome !
 ## Usage
 
 ```
-git clone https://github.com/simple-crypto/scabench
-cd scabench
+git clone https://github.com/cassiersg/SCABench
+cd SCABench
 make
 ```
 
