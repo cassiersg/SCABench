@@ -40,7 +40,8 @@ Here are some results on a `Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz` laptop:
 
 | Benchmark |  lascar | SCALib | scared |
 | --------- | ------- | ------ | ------ |
-| SNR (16 8-bit variables, 1k points per trace, 1M traces) | 26.8s | 1.1s | n.a. |
+| SNR (16 8-bit variables, 1k points per trace, 100k traces) | 7.4s | 0.13s | 22.4s |
+| SNR (16 8-bit variables, 1k points per trace, 1M traces) | 26.8s | 1.1s |  |
 | T-test (1st order, 1k points per trace, 500k traces) | 11.4s | 0.26s | 4.7s |
 
 ## Contribution
