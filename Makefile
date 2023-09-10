@@ -20,7 +20,7 @@ results/ttest_%.json: ttest_%.py snr_bencher.py ve/%
 	( source ve/$*/bin/activate && python $< -o $@ -n 5 -w 1 -p 1 -v )
 
 
-SNR_RESULTS = $(addprefix results/snr_,scalib.json lascar.json)
+SNR_RESULTS = $(addprefix results/snr_,scalib.json lascar.json scared.json)
 TTEST_RESULTS = $(addprefix results/ttest_,scalib.json lascar.json scared.json)
 
 report: ve/cmp $(SNR_RESULTS) $(TTEST_RESULTS)
@@ -28,7 +28,7 @@ report: ve/cmp $(SNR_RESULTS) $(TTEST_RESULTS)
 	( source ve/cmp/bin/activate && pyperf compare_to $(TTEST_RESULTS))
 
 clean:
-	rm -r ve
-	rm -r results
+	rm -rf ve
+	rm -rf results
 
 .PHONY: clean

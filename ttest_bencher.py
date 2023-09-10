@@ -31,5 +31,10 @@ bench_cases = [
             "n_traces": 5*10**5,
             "order": 1,
             },
+        {
+            "n_samples": 10**4,
+            "n_traces": 10**6,
+            "order": 1,
+            },
         ]
 

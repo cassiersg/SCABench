@@ -32,5 +32,11 @@ bench_cases = [
             "n_vars": 16,
             "n_traces": 10**6,
             },
+        {
+            "n_classes": 16,
+            "n_samples": 10000,
+            "n_vars": 1,
+            "n_traces": 10**6,
+            },
         ]
 
