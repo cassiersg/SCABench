@@ -36,23 +36,23 @@ We tried to make this benchmark as fair as possible, but performance may widely
 depends on configuration and settings.
 Also, our current set of benchmarks only covers a small part of the libraries.
 
-Here are some results on a `Intel(R) Xeon(R) CPU E5-2670 v3 @ 2.30GHz` (210 GiB RAM):
+Here are some results on a `AMD Ryzen Threadripper 3990X 64-Core Processor` (256 GiB RAM), Ubuntu 24.04:
 
 | Benchmark |  lascar | SCALib | scared |
 | --------- | ------- | ------ | ------ |
-| SNR (16 8-bit variables, 1k points per trace, 100k traces) | 24.8s | 0.36s | 43.0s |
-| SNR (1 4-bit variable, 10k points per trace, 1M traces) | 36.7s | 1.3s | 21.1s |
-| T-test (1st order, 1k points per trace, 500k traces) | 3.1s | 0.51s | 2.7s |
-| T-test (1st order, 10k points per trace, 1M traces) | 48.7s | 1.2s | 23.4s |
-| CPA (1k points per trace, 1M traces, 16 vars, 256 classes) | 21.3s | 0.178s | 54.6s |
-| CPA (10k points per trace, 1M traces, 1 vars, 16 classes) | 14.5s | 1.15s | 38.6s |
+| SNR (16 8-bit variables, 1k points per trace, 100k traces) | 17.4s | 0.15s | 17.9s |
+| SNR (1 4-bit variable, 10k points per trace, 1M traces) | 14.9s | 1.2s | 7.3s |
+| T-test (1st order, 1k points per trace, 500k traces) | 2.2s | 0.02s | 1.0s |
+| T-test (1st order, 10k points per trace, 1M traces) | 33.1s | 0.61s | 5.7s |
+| CPA (16 8-bit variables, 1k points per trace, 1M traces) | 21.0s | 0.19s | 53.2s |
+| CPA (1 4-bit variable, 10k points per trace, 1M traces) | 24.9s | 1.17s | 36.1s |
 
 ## Contribution
 
 We welcome contributions to add more test cases or libraries to the benchmark.
 
 If you find a test case to be missing or the configuration used for a library
-to be suboptimal, please open a pull request!
+to be suboptimal, please open a pull request or contact me.
 
 ## License
 
