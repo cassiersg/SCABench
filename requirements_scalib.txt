@@ -1,4 +1,3 @@
 numpy==2.0.0
 py-cpuinfo==9.0.0
-scalib @ file:///DATA3/users/cmomin/tools/SCALib/dist/avx2/scalib-0.6.2.dev18%2Bg21b317e-cp310-abi3-linux_x86_64.whl#sha256=16e245c0c2e124e1ee47aae43d9932053c56c5c21b25f03993f77e267eaa1a03
-
+scalib==0.6.2

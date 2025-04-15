@@ -30,8 +30,8 @@ TTEST_RESULTS = $(addprefix results/ttest_,scalib.json lascar.json scared.json)
 CPA_RESULTS = $(addprefix results/cpa_,scalib.json lascar.json scared.json)
 
 report: ve/cmp $(CPA_RESULTS) #$(SNR_RESULTS) $(TTEST_RESULTS)
-	#( source ve/cmp/bin/activate && pyperf compare_to $(SNR_RESULTS))
-	#( source ve/cmp/bin/activate && pyperf compare_to $(TTEST_RESULTS))
+	( source ve/cmp/bin/activate && pyperf compare_to $(SNR_RESULTS))
+	( source ve/cmp/bin/activate && pyperf compare_to $(TTEST_RESULTS))
 	( source ve/cmp/bin/activate && pyperf compare_to $(CPA_RESULTS))
 
 clean:

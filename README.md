@@ -44,6 +44,8 @@ Here are some results on a `Intel(R) Xeon(R) CPU E5-2670 v3 @ 2.30GHz` (210 GiB 
 | SNR (1 4-bit variable, 10k points per trace, 1M traces) | 36.7s | 1.3s | 21.1s |
 | T-test (1st order, 1k points per trace, 500k traces) | 3.1s | 0.51s | 2.7s |
 | T-test (1st order, 10k points per trace, 1M traces) | 48.7s | 1.2s | 23.4s |
+| CPA (1k points per trace, 1M traces, 16 vars, 256 classes) | 21.3s | 0.178s | 54.6s |
+| CPA (10k points per trace, 1M traces, 1 vars, 16 classes) | 14.5s | 1.15s | 38.6s |
 
 ## Contribution
 
